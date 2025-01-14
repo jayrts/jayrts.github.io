@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.main-header {
+  background: #111;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.main-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.main-header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.hero .button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Artworks Section */
+.artworks {
+  padding: 50px 20px;
+  background: #f4f4f4;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.art-item img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Commissions Section */
+.commissions {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.commissions img {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.commissions .button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff6600;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* About Section */
+.about {
+  padding: 50px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.about img {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+/* Footer */
+.main-footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #fff;
+}
+
+.main-footer img {
+  width: 50px;
+  margin-bottom: 10px;
+}
