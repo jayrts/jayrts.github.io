@@ -31,7 +31,7 @@ body {
   justify-content: center;
   color: #ffa500;
   position: relative;
-  padding: 0;
+  padding: 50;
 }
 
 .title::after {
