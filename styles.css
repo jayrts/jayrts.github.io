@@ -22,7 +22,7 @@ body {
 }
 
 .title {
-  background-image: url("/title-bg.png");
+  background-image: url("https://jayrts.github.io/title-bg.png");
   display: flex;
   align-items: center;
   font-size: 24px;
