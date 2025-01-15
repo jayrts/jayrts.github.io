@@ -45,6 +45,8 @@ body {
   font-size: 18px;
   margin-left: 20px;
   position: relative;
+  text-align: center;
+  align-items: center;
 }
 
 .item a {
